@@ -3,12 +3,12 @@
   %head
     %meta{charset:"utf-8"}
     
-    %title = current_page.data.title || "The Middleman"
+    %title= current_page.data.title || "The Middleman"
     
-    = stylesheet_link_tag "normalize", "all"
-    = javascript_include_tag  "all"
+    = stylesheet_link_tag "all"
+  %body{:class => page_classes, 'xmlns:ng' => "http://angularjs.org", 'ng-app' => true}
+    I can add: {{ 1+2 }}.
 
-  %body{class:page_classes}
     %nav.navbar.navbar-inverse.navbar-fixed-top
       .navbar-inner
         .container
@@ -16,6 +16,7 @@
 
     .container
 
-
       Some text goes here
       = yield
+
+    = javascript_include_tag  "all"

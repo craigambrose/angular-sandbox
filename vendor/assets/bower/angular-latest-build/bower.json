@@ -1,0 +1,14 @@
+{
+  "name": "angular-latest-build",
+  "version": "1.1.5",
+  "main": "./angular.js",
+  "dependencies": {},
+  "gitHead": "51e29fd043cfa0c67da1f16fe46a28513ae0233e",
+  "_id": "angular-latest-build@1.1.5",
+  "readme": "ERROR: No README.md file found!",
+  "description": "ERROR: No README.md file found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlcraig/angular-latest-build.git"
+  }
+}
