@@ -7,16 +7,12 @@
     
     = stylesheet_link_tag "all"
   %body{:class => page_classes, 'xmlns:ng' => "http://angularjs.org", 'ng-app' => true}
-    I can add: {{ 1+2 }}.
-
     %nav.navbar.navbar-inverse.navbar-fixed-top
       .navbar-inner
         .container
           %a.brand{href:"#"} Craig's Sandbox
 
     .container
-
-      Some text goes here
       = yield
 
     = javascript_include_tag  "all"
